@@ -1,0 +1,22 @@
+@media screen and (max-width: 650px) { /* quando a tela for maior que (max-width) */
+    header .container {
+        display: flex;
+        flex-direction: column; /* quando atingir 650px pra baixo, ele joga os elementos para baixo (colunas) */
+    }
+    .botao {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .descricao {
+        width: 60%;
+    }
+}
+
+/* @media screen and (min-width: 980px) { // quando a largura da tela for menor que 900px, fará o comando abaixo 
+    .videoBG {
+        height: 100%;
+        
+    }
+} */
